@@ -29,7 +29,6 @@ Text Domain:	 churchill-group
 [class^="grouplogins"], [class*=" grouplogins"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Signin-icons' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -74,7 +73,6 @@ Text Domain:	 churchill-group
 [class^="Catiwebicon-"], [class*=" Catiwebicon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'catiweb-Icons' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
