@@ -1,0 +1,189 @@
+/* 
+Theme Name:		 Churchill Group
+Theme URI:		 https://creationdesks.com
+Description:	 Churchill Group is a child theme of WP Bootstrap 4, created by ChildTheme-Generator.com
+Author:			 Gururaju Acharya
+Author URI:		 https://creationdesks.com
+Template:		 wp-bootstrap-4
+Version:		 1.0.0
+Text Domain:	 churchill-group
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+/* font style */
+@font-face {
+  font-family: 'Signin-icons';
+  src:  url('assets/fonts/Signin-icons.eot?jci38f');
+  src:  url('assets/fonts/Signin-icons.eot?jci38f#iefix') format('embedded-opentype'),
+    url('assets/fonts/Signin-icons.ttf?jci38f') format('truetype'),
+    url('assets/fonts/Signin-icons.woff?jci38f') format('woff'),
+    url('assets/fonts/Signin-icons.svg?jci38f#Signin-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="grouplogins"], [class*=" grouplogins"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Signin-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.grouploginsClient:before {
+  content: "\e900";
+}
+.grouploginsEmployee:before {
+  content: "\e901";
+}
+.grouploginsSupplier:before {
+  content: "\e902";
+}
+
+.grouploginsClient, .grouploginsEmployee, .grouploginsSupplier{
+	font-size: 32px;
+    float: left;
+    margin-right: 10px;
+	margin-top: -5px;
+	font-weight:500;	
+}
+
+@font-face {
+  font-family: 'catiweb-Icons';
+  src:  url('assets/fonts/catiweb-Icons.eot?c5eexi');
+  src:  url('assets/fonts/catiweb-Icons.eot?c5eexi#iefix') format('embedded-opentype'),
+    url('assets/fonts/catiweb-Icons.ttf?c5eexi') format('truetype'),
+    url('assets/fonts/catiweb-Icons.woff?c5eexi') format('woff'),
+    url('assets/fonts/catiweb-Icons.svg?c5eexi#catiweb-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="Catiwebicon-"], [class*=" Catiwebicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'catiweb-Icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Catiwebicon-Buy-now-1:before {
+  content: "\e900";
+}
+.Catiwebicon-Buy-now-2:before {
+  content: "\e901";
+}
+.Catiwebicon-Buy-now-3:before {
+  content: "\e902";
+}
+
+.Catiwebicon-Buy-now-1, .Catiwebicon-Buy-now-2, .Catiwebicon-Buy-now-3{
+	font-size: 29px;
+    float: left;
+    margin-right: 10px;
+	margin-top: -5px;
+	font-weight:500;
+}
+
+/* nave bar adjustments start */
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color: #000;
+		font-size: large;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    opacity: 0.5;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #000;
+    opacity: 0.75;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25) !important; 
+}
+
+#primary-menu-wrap{
+	margin-top:15px;	
+}
+#primary-menu{
+	padding-right:5px;
+}
+@media screen and (min-width: 1600px){
+#site-navigation .container-fluid{
+	padding-right:8em;
+	padding-left:8em;
+	}}
+@media screen and (max-width: 991px){
+	.logo {
+		text-align:center !important;
+		margin-bottom:30px;
+	}
+	.top-bar-right{
+		text-align:center !important;
+		}
+	.login-pan {
+    text-align: center !important;
+}	
+}
+
+.navbar-dark .navbar-toggler {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.navbar-toggler {
+    background-color: #ed008c;
+    border: 1px solid #ed008c;
+		margin-top:30px;	
+}
+.navbar{
+	padding: 1rem 1rem;
+}
+
+#site-navigation a.btn{
+	border-right:1px solid #e3e3e3;
+	padding: 0 15px;
+	margin-top:10px;
+}
+
+#site-navigation a.btn:last-child{
+	border:0;
+}
+
+.login-pan {
+	text-align:right;
+}
+
+@media screen and (max-width: 991px){
+	.login-pan{
+	text-align:center;
+}}
+
+@media screen and (max-width:480px){
+#site-navigation a.btn {
+    padding: 0 4px;
+}}
+
+/* nave bar adjustments end */
